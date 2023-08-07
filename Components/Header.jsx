@@ -42,6 +42,9 @@ function Header() {
         </div>
       </div>
       {/* right */}
+      <div className="mt-6 mr-2">
+        <Image className="" width={20} height={10} src="/glass.png" />
+      </div>
       <div className=" w-[20%] ">
         <input
           className="flex bg-inherit shadow-xl rounded-full focus:outline-none text-sm py-6 text-white placeholder-slate-400 w-[80%]"
