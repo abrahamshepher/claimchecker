@@ -1,13 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
-
+import Header from "../components/Header";
 export default function Home() {
   return (
-    <div className="home">
-      <div>
-        <h1 className="text-lg text-yellow-400">hello testing</h1>
-      </div>
+    <div>
+      <Head>
+        <title>ClaimChecker</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <Header />
+      {/* Banner */}
     </div>
   );
 }
