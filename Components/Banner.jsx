@@ -2,9 +2,11 @@ import React from "react";
 import Image from "next/image";
 import NumberAnimation from "../Constants/NumberAnimation";
 import { useSpring, animated } from "react-spring";
+import Card from "../Constants/Card";
+
 function Banner() {
   return (
-    <div className="grid grid-flow-row">
+    <div className="flex flex-col pb-10">
       <div className="relative h-[400px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px] ">
         {/* Image */}
         <Image src="/london.jpg" layout="fill" objectFit="cover" alt="" />
@@ -41,7 +43,6 @@ function Banner() {
         </div>
         {/* Bich wla div end */}
       </div>
-
       {/* 2nd div blue part wla */}
       <div className="bg-[#00FCE8] h-[325px]">
         {" "}
@@ -108,15 +109,17 @@ function Banner() {
         </div>
       </div>
       {/* 4TH div white part wla */}
-
-      <div className="bg-[#FFFFFF] h-[500px]">
+      <div className="bg-[#FFFFFF]">
         {/* First Header ka div */}
         <div className="text-center text-black sm:text-3xl font-bold">
           <h1>Recent fact checks</h1>
         </div>
       </div>
+      {/* Card section */}
+      <div className="flex justify-around w-full ">
+        <Card imageUrl={"/edit3.jpg"} />
+      </div>
       {/* 5TH div WHITE part wla */}
-      <div className="bg-[#00FCE8] h-[300px]"> gg</div>
     </div>
   );
 }
