@@ -12,7 +12,7 @@ function Banner() {
         <Image src="/london.jpg" layout="fill" objectFit="cover" alt="" />
         {/* Picture k bich wla div */}
         <div className="absolute ml-[450px] h-[300px] mt-[80px]  w-[40%] text-center flex wrap  ">
-          <div className="bg-[#00FCE8] w-[5%]"></div>
+          <div className="bg-gradient-to-r from-blue-300 bg-[#00FCE8] to-transparent w-[5%]"></div>
           <div className="bg-white w-[100%] bg-opacity-80">
             <h1 className=" sm:text-5xl text-black font-xl font-bold">
               Can you trust your MP?
@@ -44,7 +44,7 @@ function Banner() {
         {/* Bich wla div end */}
       </div>
       {/* 2nd div blue  */}
-      <div className="bg-[#00FCE8] h-[325px]">
+      <div className="bg-gradient-to-r from-blue-300 bg-[#00FCE8] to-transparent h-[325px]">
         {" "}
         {/* Text wla div */}
         <div className="flex justify-center mt-10 ">
@@ -111,10 +111,12 @@ function Banner() {
       {/* 3nd div gray END*/}
 
       {/* 4TH div white part wla */}
-      <div className="bg-[#FFFFFF]">
+      <div className="">
         {/* First Header ka div */}
         <div className="text-center text-black sm:text-3xl font-bold">
-          <h1>Recent fact checks</h1>
+          <p className="text-center bg-gradient-to-r from-blue-300 bg-[#00FCE8] to-transparent p-4">
+            We're here to change debate for the better
+          </p>
         </div>
       </div>
       {/* 5TH div WHITE part wla */}
