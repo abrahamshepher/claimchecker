@@ -43,7 +43,7 @@ function Banner() {
         </div>
         {/* Bich wla div end */}
       </div>
-      {/* 2nd div blue part wla */}
+      {/* 2nd div blue  */}
       <div className="bg-[#00FCE8] h-[325px]">
         {" "}
         {/* Text wla div */}
@@ -71,13 +71,13 @@ function Banner() {
             </button>
           </div>
         </div>
-        {/* Text wla div End */}
+        {/* 2nd div blue  End*/}
       </div>
-      {/* 3nd div gray part wla */}
-      <div className="[#F0F0F0] h-[250px]">
-        <div className="grid grid-cols-2 gap-12">
-          {/* first div */}
-          <div className="ml-[600px] mt-9 bg-white h-[180px] w-[350px]">
+      {/* 3nd div gray */}
+      <div className="bg-[#F0F0F0] h-[250px]">
+        <div className="grid grid-cols-2 gap-24 ">
+          {/* left box */}
+          <div className="ml-[400px] mt-9 bg-white h-[180px] w-[350px]">
             {" "}
             <div>
               <div className="flex justify-center items-center text-black mt-[10%] sm:text-6xl font-bold">
@@ -92,7 +92,7 @@ function Banner() {
               </div>
             </div>
           </div>
-          {/* second div */}
+          {/* rightbox */}
           <div className="mt-9 bg-white h-[180px] w-[350px]">
             <div>
               <div className="flex justify-center items-center text-black mt-[10%] sm:text-6xl font-bold">
@@ -108,16 +108,14 @@ function Banner() {
           </div>
         </div>
       </div>
+      {/* 3nd div gray END*/}
+
       {/* 4TH div white part wla */}
       <div className="bg-[#FFFFFF]">
         {/* First Header ka div */}
         <div className="text-center text-black sm:text-3xl font-bold">
           <h1>Recent fact checks</h1>
         </div>
-      </div>
-      {/* Card section */}
-      <div className="flex justify-around w-full ">
-        <Card imageUrl={"/edit3.jpg"} />
       </div>
       {/* 5TH div WHITE part wla */}
     </div>
